@@ -22,7 +22,6 @@ const FoodList = (props) => {
   }, [props.match.params.query]);
   if (dataOfSearch.loading) return <SpinnerLoading />;
   if (dataOfSearch.error || dataOfSearch.list.length < 1) return null;
-  console.log(dataOfSearch);
   const renderFoodItem = () => {
     return dataOfSearch.list.map((food) => {
       return <FoodItem food={food} key={food.id} />;
