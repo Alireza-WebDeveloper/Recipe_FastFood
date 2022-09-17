@@ -7,7 +7,7 @@ import './NavigationForm.css';
 const NavigationForm = () => {
   const [query, setQuery] = useState('');
   const history = useHistory('');
-  onSubmitSearch = (e) => {
+  const onSubmitSearch = (e) => {
     e.preventDefault();
     history.push(`/list/${query}`);
     setQuery('');
