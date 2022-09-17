@@ -1,0 +1,15 @@
+.slider_Menu--Item_Img {
+  height: 50vh;
+  width: 100%;
+  cursor: pointer;
+}
+
+.slider_Menu--Item_Date .bi,
+.slider_Menu--Item_Date span {
+  font-size: 1.1rem;
+}
+
+.slider_Menu--Item_Title span,
+.slider_Menu--Item_Title strong {
+  font-size: 1.3rem;
+}

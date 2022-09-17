@@ -1,0 +1,17 @@
+.food_Item-Single__Img {
+  height: 80vh;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media (max-width: 768px) and (pointer: fine) {
+  .food_Item-Single__Img {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 768px) and (pointer: coarse) {
+  .food_Item-Single__Img {
+    height: 50vh;
+  }
+}

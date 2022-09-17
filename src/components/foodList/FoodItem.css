@@ -1,0 +1,22 @@
+.Food_Item-Image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  clip-path: circle();
+}
+.food_Item-Target {
+  cursor: pointer;
+}
+.food_Item-Target::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  clip-path: circle();
+  transform: scale(1.1);
+}
+
+.food_Item-Target:hover::before {
+  background-color: orange;
+}

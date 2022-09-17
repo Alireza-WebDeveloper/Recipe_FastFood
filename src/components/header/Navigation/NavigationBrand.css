@@ -1,0 +1,10 @@
+.navigation_Brand--Logo {
+  max-width: 30px;
+}
+
+.navigation_Brand--Header {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  color: transparent;
+  -webkit-text-stroke: 0.1rem white;
+}

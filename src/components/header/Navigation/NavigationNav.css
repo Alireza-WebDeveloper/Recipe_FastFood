@@ -1,0 +1,26 @@
+.navigation_Nav .nav-link,
+.navigation_Nav .bi-bag {
+  font-size: 1.7rem;
+  font-family: Roboto;
+}
+
+.shop_Number {
+  position: absolute;
+  left: 60%;
+  top: -10%;
+  font-size: 1.2rem;
+  clip-path: circle();
+  padding: 0 0.3rem;
+  font-family: Robo, cursive, sans-serif;
+}
+
+.active_NavLink::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 0.2rem;
+  width: 100%;
+  height: 0.4rem;
+  background-color: rgb(228, 154, 15);
+}

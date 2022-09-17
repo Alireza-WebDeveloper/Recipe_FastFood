@@ -1,0 +1,26 @@
+.Introduction__Details p {
+  font-family: 'Courier New', Courier, monospace;
+  height: 55vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Introduction__Details h1 {
+  font-family: Roboto, cursive, sans-serif;
+}
+
+.Introduction__Image .img-fluid {
+  object-fit: cover;
+}
+
+@media (max-width: 768px) and (pointer: fine) {
+  .Introduction__Details p {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 768px) and (pointer: coarse) {
+  .Introduction__Details p {
+    height: 20vh;
+  }
+}

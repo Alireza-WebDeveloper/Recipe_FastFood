@@ -1,0 +1,4 @@
+.shop_Icon:hover {
+  transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  filter: drop-shadow(-5px 0 6px orange);
+}

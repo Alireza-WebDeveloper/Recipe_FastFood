@@ -1,0 +1,22 @@
+.img_NotFound {
+  height: 60vh;
+  object-fit: fill;
+}
+
+@media (max-width: 768px) and (pointer: fine) {
+  .img_NotFound {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 568px) and (pointer: fine) {
+  .img_NotFound {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 768px) and (pointer: coarse) {
+  .img_NotFound {
+    height: 30vh;
+  }
+}

@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(/assest/css/font/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+}
+
+:root {
+  --bg1: black;
+}
+#root {
+  position: relative;
+  background-color: var(--bg1);
+  min-height: 100vh;
+}

@@ -1,0 +1,52 @@
+.icon_copyClipboard {
+  font-size: 1.2rem;
+}
+
+.product_Name {
+  font-family: Roboto, sans-serif, cursive;
+  font-size: 1.1rem;
+}
+
+.text-copyClipboard {
+  width: '4em';
+  font-size: 1rem;
+  font-family: Roboto, sans-serif, cursive;
+}
+
+.text-copyClipboard,
+.text-copyClipboard::before {
+  background-color: orange;
+}
+
+.text-copyClipboard::before {
+  content: '';
+  position: absolute;
+  left: 40%;
+  bottom: -20%;
+  width: 30%;
+  height: 0.5em;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+
+@media (max-width: 1080px) and (pointer: coarse) {
+  .icon_copyClipboard {
+    font-size: 1.7rem;
+  }
+  .text-copyClipboard {
+    width: '4.9em';
+    font-size: 1.4rem;
+  }
+  .product_Name {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 768px) and (pointer: coarse) {
+  .icon_copyClipboard {
+    font-size: 1.5rem;
+  }
+  .text-copyClipboard {
+    width: '4.7em';
+    font-size: 1.2rem;
+  }
+}

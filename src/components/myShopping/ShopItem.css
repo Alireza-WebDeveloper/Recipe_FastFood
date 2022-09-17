@@ -1,0 +1,10 @@
+.shop_Item .shop_Item--Img {
+  height: 20em;
+}
+
+@media (max-width: 768px) and (pointer: fine) {
+  .shop_Item {
+    height: 30em;
+    object-fit: cover;
+  }
+}
