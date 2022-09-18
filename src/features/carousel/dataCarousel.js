@@ -22,7 +22,7 @@ const dataCarousel = [
   },
   {
     url: 'https://images.pexels.com/photos/3883858/pexels-photo-3883858.jpeg?auto=compress&cs=tinysrgb&w=1600',
-    text: 'ice cream',
+    title: 'ice cream',
     text: 'a very cold sweet food which is made from frozen cream or a substance like cream and has a flavour such as vanilla, chocolate, or strawberry',
   },
 ];
