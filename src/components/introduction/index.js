@@ -7,7 +7,7 @@ const Introduction = () => {
   const dataIntroduction = useSelector((store) => store.introduction);
   const { text, url } = dataIntroduction;
   return (
-    <Row sm={1} className="Introduction py-3">
+    <Row sm={1} className="Introduction py-3 mt-4">
       <Col>
         <Row lg={2} md={2} sm={1} className="row-cols-1">
           <Col as="article" className="Introduction__Image">

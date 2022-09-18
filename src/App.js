@@ -11,6 +11,7 @@ import MyShopping from './components/myShopping';
 import Menu from './components/menu';
 import Notification from './Notification';
 import PageNotFound from './components/pageNotFound';
+import OurService from './components/ourService';
 const App = () => {
   return (
     <BrowserRouter>
@@ -21,6 +22,7 @@ const App = () => {
           <CarouselMenu />
           <Introduction />
           <SliderMenu />
+          <OurService />
         </Route>
         <Route exact path="/list/:query" component={FoodList}></Route>
         <Route exact path="/single/:id" component={FoodSingle}></Route>

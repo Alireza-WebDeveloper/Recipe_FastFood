@@ -55,7 +55,7 @@ const SliderMenu = () => {
     });
   };
   return (
-    <Row className="Slider_Menu">
+    <Row className="Slider_Menu mt-4">
       <Col className="text-light">
         <Slider {...settingSlider}>{renderSliderItem()}</Slider>
       </Col>

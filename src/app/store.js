@@ -7,6 +7,7 @@ import foodSingleSlice from '../features/foodSingle/foodSingleSlice';
 import myShoppingSlice from '../features/myShopping/myShoppingSlice';
 import storage from 'redux-persist/lib/storage';
 import menuSlice from '../features/menu/menuSlice';
+import ourServiceSlice from '../features/ourService/ourServiceSlice';
 import {
   persistReducer,
   FLUSH,
@@ -32,6 +33,7 @@ const reducer = combineReducers({
   foodList: foodListSlice,
   foodSingle: foodSingleSlice,
   menu: menuSlice,
+  ourService: ourServiceSlice,
 });
 
 const persistedReducer = persistReducer(persistConfig, reducer);

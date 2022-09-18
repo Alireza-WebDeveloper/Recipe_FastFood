@@ -18,7 +18,9 @@ const CarouselMenu = () => {
             loading="lazy"
           />
           <Carousel.Caption className="position_relative ">
-            <h3 className="text-capitalize Carousel_Item--Title">{title}</h3>
+            <h3 className="text-capitalize Carousel_Item--Title text-warning fw-bolder">
+              {title}
+            </h3>
             <p className="text-capitalize Carousel_Item--Text d-lg-block  d-none">
               {text}
             </p>

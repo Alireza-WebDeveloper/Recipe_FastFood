@@ -11,7 +11,7 @@
 }
 
 .img_Carousel {
-  height: 40em;
+  height: 60em;
 }
 
 .Carousel_Item--Title {
@@ -30,5 +30,11 @@
 @media (max-width: 768px) and (pointer: coarse) {
   .img_Carousel {
     height: 30em;
+  }
+}
+
+@media (max-width: 768px) and (pointer: fine) {
+  .img_Carousel {
+    height: 40em;
   }
 }
