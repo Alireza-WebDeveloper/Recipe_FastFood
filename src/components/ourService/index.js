@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { useSelector } from 'react-redux';
-import ServiceItem from './serviceItem';
+import ServiceItem from './ServiceItem';
 
 const OurService = () => {
   const dataOfService = useSelector((store) => store.ourService);
