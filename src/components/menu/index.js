@@ -30,10 +30,8 @@ const Menu = () => {
               You can copy and search the text of each box{' '}
               <i className="bi bi-clipboard icon_copyClipboard text-warning"></i>
             </p>
-            <p className="text-warning">
-              <strong>
-                The best products available With the best quality available
-              </strong>
+            <p className="text-warning text-capitalize display-6">
+              <strong>The best products available</strong>
             </p>
             <p className=" text-light text-capitalize lead">
               Names of all food products provided Access it by copying the name
