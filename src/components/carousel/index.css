@@ -27,6 +27,12 @@
   transition: all 0.6s linear;
 }
 
+.carousel-indicators button {
+  width: 5em !important;
+  height: 1em !important;
+  border-radius: 0.5rem !important;
+}
+
 @media (max-width: 768px) and (pointer: coarse) {
   .img_Carousel {
     height: 30em;
