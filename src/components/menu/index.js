@@ -24,18 +24,18 @@ const Menu = () => {
               the list of products
             </h2>
             <p
-              className="lead text-light ps-2 gap-3 text-capitalize d-flex align-items-center"
+              className="lead text-light gap-3 text-capitalize d-flex align-items-center"
               style={{ fontSize: '1.4rem' }}
             >
               You can copy and search the text of each box{' '}
               <i className="bi bi-clipboard icon_copyClipboard text-warning"></i>
             </p>
-            <p className="text-warning ps-lg-3 ps-0">
+            <p className="text-warning">
               <strong>
                 The best products available With the best quality available
               </strong>
             </p>
-            <p className=" text-light lead ps-lg-3 ps-0">
+            <p className=" text-light text-capitalize lead">
               Names of all food products provided Access it by copying the name
               of each product and pasting it in the search section of the site
             </p>
