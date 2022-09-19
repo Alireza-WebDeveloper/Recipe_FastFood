@@ -6,5 +6,5 @@
   font-family: 'Courier New', Courier, monospace;
   font-size: 2rem;
   color: transparent;
-  -webkit-text-stroke: 0.1rem white;
+  -webkit-text-stroke: 0.1rem var(--brand-bg);
 }
