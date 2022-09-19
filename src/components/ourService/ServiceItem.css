@@ -14,7 +14,7 @@
 
 .service_Item-Head:hover::before {
   transform: rotate(45deg) scale(1.2);
-  background-color: var(--before-bg);
+  background-color: orange;
   border: none;
   z-index: 1;
 }

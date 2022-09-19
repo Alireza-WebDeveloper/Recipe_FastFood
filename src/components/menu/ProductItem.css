@@ -15,7 +15,7 @@
 
 .text-copyClipboard,
 .text-copyClipboard::before {
-  background-color: var(--before-bg);
+  background-color: orange;
 }
 
 .text-copyClipboard::before {

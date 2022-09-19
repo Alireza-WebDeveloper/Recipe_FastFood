@@ -8,32 +8,11 @@
   src: url(/assest/css/font/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
 }
 
-.dark {
-  --root-bg: black;
-  --before-color: orange;
-  --after--color: orange;
-  --before-bg: orange;
-  --after-bg: orange;
-  --brand-bg: white;
-  --shop-Icon-shadow: orange;
-  --carousel-arrow-bg: black;
-  --carousel-Item-Stroke-color: white;
+:root {
+  --bg1: black;
 }
-
-.light {
-  --root-bg: white;
-  --before-color: orange;
-  --after--color: orange;
-  --before-bg: orange;
-  --after-bg: orange;
-  --brand-bg: white;
-  --shop-Icon-shadow: orange;
-  --carousel-arrow-bg: black;
-  --carousel-Item-Stroke-color: white;
-}
-
 #root {
   position: relative;
-  background-color: var(--root-bg);
+  background-color: var(--bg1);
   min-height: 100vh;
 }
