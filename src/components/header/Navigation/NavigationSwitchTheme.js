@@ -10,7 +10,7 @@ const NavigationSwitchTheme = () => {
   useEffect(() => {
     document.body.classList = getTheme;
   }, [getTheme]);
-  onChangeTheme = () => {
+  const onChangeTheme = () => {
     dispatch(changeThemeMode());
   };
   return (
