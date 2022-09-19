@@ -12,9 +12,9 @@ const OurService = () => {
     });
   };
   return (
-    <Container className="m-lg-5 mt-3">
-      <Row xs={1} className="gy-4">
-        <Col className="d-flex flex-column align-items-center">
+    <Container className="mt-3">
+      <Row xs={1} className="gy-4 mb-4">
+        <Col className="d-flex flex-column align-items-center py-2">
           <p className="text-center lead text-capitalize text-light w-75">
             Blame it on laziness or convenience, people prefer to order food
             online rather than leaving their homes to visit an eatery. All you
