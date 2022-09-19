@@ -8,11 +8,16 @@
   src: url(/assest/css/font/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
 }
 
-:root {
-  --bg1: black;
-}
 #root {
   position: relative;
-  background-color: var(--bg1);
+  background-color: var(--bg-Body);
   min-height: 100vh;
+}
+
+.light {
+  --bg-Body: rgb(207, 204, 204);
+}
+
+.dark {
+  --bg-Body: black;
 }

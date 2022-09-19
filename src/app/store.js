@@ -8,6 +8,7 @@ import myShoppingSlice from '../features/myShopping/myShoppingSlice';
 import storage from 'redux-persist/lib/storage';
 import menuSlice from '../features/menu/menuSlice';
 import ourServiceSlice from '../features/ourService/ourServiceSlice';
+import themeSlice from '../features/theme/themeSlice';
 import {
   persistReducer,
   FLUSH,
@@ -23,7 +24,7 @@ const persistConfig = {
   key: 'shoppingStore',
   version: 1,
   storage,
-  whitelist: ['myShopping'],
+  whitelist: ['myShopping', 'theme'],
 };
 const reducer = combineReducers({
   myShopping: myShoppingSlice,
@@ -34,6 +35,7 @@ const reducer = combineReducers({
   foodSingle: foodSingleSlice,
   menu: menuSlice,
   ourService: ourServiceSlice,
+  theme: themeSlice,
 });
 
 const persistedReducer = persistReducer(persistConfig, reducer);
