@@ -6,6 +6,7 @@ import {
   addMyShopping,
   removeMyShopping,
 } from '../../features/myShopping/myShoppingSlice';
+import { useMemo } from 'react';
 const FoodItem = ({ food }) => {
   const { image_url, servings, cooking_time, id, publisher, title } = food;
   const { ingredients } = food;
@@ -17,7 +18,7 @@ const FoodItem = ({ food }) => {
   const removeFoodOfShop = () => {
     dispatch(removeMyShopping(id));
   };
-  const renderIngredientItem = () => {
+  const renderIngredientItem = useMemo(() => {
     if (!ingredients) return null;
     return ingredients.map(({ quantity, unit, description }) => {
       return (
@@ -35,7 +36,7 @@ const FoodItem = ({ food }) => {
         </Col>
       );
     });
-  };
+  }, []);
 
   const renderOptionShop = () => {
     if (food.bookmarked) {
@@ -103,7 +104,7 @@ const FoodItem = ({ food }) => {
             recipe ingredient
           </h4>
           <Row lg={2} sm={1} className="text-light g-2 row-cols-1">
-            {renderIngredientItem()}
+            {renderIngredientItem}
           </Row>
         </div>
       </Col>
